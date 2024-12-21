@@ -1,0 +1,19 @@
+p{
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.heading{
+  font-size: 50px;
+  font-weight: bold;
+}
+.sentance{
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 25px;
+  text-align: center;
+}
+.touch{
+  text-decoration: underline;
+}

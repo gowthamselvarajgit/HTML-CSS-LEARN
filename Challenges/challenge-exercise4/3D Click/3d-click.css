@@ -1,4 +1,3 @@
-<style>
   .shadow-button{
     background-color: green;
     border: none;
@@ -14,5 +13,4 @@
     margin-left: 2px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   }
-</style>
-<button class = "shadow-button">Shadow</button>
+
