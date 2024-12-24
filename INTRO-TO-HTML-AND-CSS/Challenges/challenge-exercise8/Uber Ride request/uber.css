@@ -1,0 +1,35 @@
+.request-line{
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.location{
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(237, 237, 237);
+  border: none;
+  font-size: 13px;
+  font-family: Arial;
+  display: block;
+  margin-bottom: 5px;
+  outline: none;
+}
+.request-button{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  border: none;
+  padding: 10px 20px ;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.schedule-button{
+  background-color: rgb(237, 237, 237);
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+}

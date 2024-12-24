@@ -1,0 +1,19 @@
+.dog-image{
+  width: 200px;
+  border-radius: 20px;
+  margin-right: 100px;
+}
+.bird-image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 100px;
+}
+.cat-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
