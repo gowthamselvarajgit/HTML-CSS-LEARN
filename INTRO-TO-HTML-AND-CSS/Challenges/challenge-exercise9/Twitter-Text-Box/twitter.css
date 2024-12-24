@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  font-family: Arial;
+  color: gray;
+}
+.tweet-button{
+  background-color: rgb(29, 161, 242);
+  border: none;
+  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+.tweet-button:hover {
+  background-color: rgb(26, 145, 218); /* Add hover effect */
+}
+.for-button{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.photo{
+  width: 50px;
+  border-radius:100px;
+}

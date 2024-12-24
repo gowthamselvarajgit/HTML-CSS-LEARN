@@ -9,9 +9,13 @@
 .video-title{
   width: 300px;
 }
-.video-author{
+.profile-pic{
+  border-radius: 100px;
 
 }
-.video-stats{
-
+.video-preview{
+  vertical-align: top;
+  width: 300px;
+  display: inline-block;
+  margin-right: 15px;
 }

@@ -1,0 +1,42 @@
+.profile{
+  width: 150px;
+  margin-bottom: 0px;
+}
+.name{
+  margin-top: 7px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.friends{
+  margin-top: 7px;
+  font-family: Arial;
+  font-size: 13px;
+  color: gray;
+  margin-left: 5px;
+}
+.friend-button{
+  background-color: rgb(24, 119, 242);
+  border: none;
+  color: white;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  outline: none;
+  transition: backgroud-color 0.15;
+}
+.friend-button:hover{
+  background-color: rgb(52, 128, 229);
+}
+.friend-button:active{
+  background-color: rgb(99, 160, 240);
+}
+.container{
+  padding-bottom: 8px;
+  display: inline-block;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
