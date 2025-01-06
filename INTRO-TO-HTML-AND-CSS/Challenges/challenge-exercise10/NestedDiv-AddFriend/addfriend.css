@@ -1,0 +1,52 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.profile{
+  width: 200px;
+  height: 200px;
+}
+.name{
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container{
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.7);
+  margin-right: 10px;
+}
+.picture{
+  margin-bottom: 0px;
+}
+.details{
+  margin: 10px;
+}
+.mutual{
+  width: 25px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.mutual-detail{
+  margin-top: 10px;
+  display: block;
+}
+.number{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(96, 96, 96);
+}
+.button-friend{
+  background-color: rgb(29, 161, 242);
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

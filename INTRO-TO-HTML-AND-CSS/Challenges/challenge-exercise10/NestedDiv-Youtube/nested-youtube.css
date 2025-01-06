@@ -1,0 +1,36 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+.thumbnail{
+  width: 200px;
+  display: block;
+}
+.image{
+  width: 200px;
+  display: block;
+}
+.about{
+  width: 250px;
+  display: block;
+  margin: 0px;
+}
+.title{
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.container{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.stats,.name{
+  font-weight: lighter;
+  margin-top: 0px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 8px;
+}

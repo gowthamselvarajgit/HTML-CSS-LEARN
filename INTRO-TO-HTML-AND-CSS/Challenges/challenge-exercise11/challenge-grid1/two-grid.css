@@ -1,0 +1,12 @@
+.inside1{
+  background-color: lightsteelblue;
+  font-size: 20px;
+}
+.inside2{
+  background-color: tomato;
+  font-size: 20px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}

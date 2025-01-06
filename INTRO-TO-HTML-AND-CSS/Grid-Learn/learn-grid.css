@@ -1,0 +1,39 @@
+.inside1{
+  background-color: lightgreen;
+  text-align: center;
+}
+.inside2{
+  background-color: tomato;
+  text-align: center;
+}
+.inside3{
+  background-color: lime;
+  text-align: center;
+}
+.container1{
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  margin-top: 10px;
+}
+.container3{
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 100px 1fr;
+}
+.container4{
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 100px 1fr 1fr;
+}
+.container5{
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 200px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
