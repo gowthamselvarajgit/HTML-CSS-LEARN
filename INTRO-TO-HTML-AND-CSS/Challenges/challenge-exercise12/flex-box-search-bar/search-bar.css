@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(92,76,144);
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+  flex: 1 1 1;
+}
+.home-container{
+  margin-right: auto;
+  padding-left: 15px;
+}
+.download-container{
+  margin-left: auto;
+  padding-right: 15px;
+}
+.search-container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.home{
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search{
+  width: 400px;
+  border-radius: 30px;
+  border: none;
+  padding: 6px;
+  outline: none;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.button-download{
+  background-color: rgb(92,76,144);
+  border: solid;
+  border-color: white;
+  color: white;
+  font: Arial;
+  border-width: 1.5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}

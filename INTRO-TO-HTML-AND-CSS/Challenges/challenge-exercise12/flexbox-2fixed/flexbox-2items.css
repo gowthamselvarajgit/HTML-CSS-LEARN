@@ -1,0 +1,12 @@
+.inside-container1{
+  background-color: orange;
+  width: 200px;
+}
+.inside-container2{
+  background-color: orangered;
+  width: 75px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}

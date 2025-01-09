@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item1-container{
+  background-color: darkblue;
+  color: white;
+}
+.item2-container{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.item3-container{
+  background-color: indianred;
+  color: white;
+}
+.item4-container{
+  background-color: firebrick;
+  color: white;
+}

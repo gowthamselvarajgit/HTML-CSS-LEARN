@@ -1,0 +1,52 @@
+/* Thumbnails */
+.thumbnails {
+  width: 100%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+/* Profile Images */
+.profile-pic {
+  border-radius: 100px;
+  width: 100%;
+}
+
+.profile-image {
+  vertical-align: top;
+}
+
+/* Video Info Grid */
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 8px;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-author {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+}
+
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+/* Video Container Grid */
+.video-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}

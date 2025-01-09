@@ -2,13 +2,39 @@
 <html>
   <head>
     <title>Youtube Clone</title>
-    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header-container">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg"
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg">
+        <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+        <img class="notification-icon" src="icons/notifications.svg">
+        <img class="my-channel-icon" src="profile/my-channel.png">
+      </div>
+    </div>
+
+
     <div class="video-container-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
