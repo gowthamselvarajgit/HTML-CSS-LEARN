@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 30px;
+  left: 30px;
+  height: 60px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.profile-image{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.name{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.friend-button{
+  padding: 7px 10px;
+  color: white;
+  font-size: 13px;
+  background-color: rgb(57, 114, 217);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.message-button{
+  padding: 7px 10px;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body{
+  padding: 3000px;
+}
