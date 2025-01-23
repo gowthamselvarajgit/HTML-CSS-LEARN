@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  width: 300px;
+  height: 60px;
+  padding: 2px;
+}
+.item1-container{
+  width: 100px;
+  background-color: rgb(193, 125, 43);
+}
+.item2-container{
+  width: 200px;
+  background-color: rgb(195, 195, 27);
+}
+.row2{
+  display: flex;
+  justify-content: space-between;
+}
+.inside-row{
+  background-color: black;
+  color: white;
+}

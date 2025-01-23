@@ -1,0 +1,33 @@
+.container1{
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+}
+.container2{
+  background-color: lightcoral;
+  height: 200px;
+  width: 200px;
+}
+.header{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px ;
+}
+.side-bar{
+  background-color: green;
+  color: white;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 50px;
+  width: 72px;
+}
+body{
+  height: 3000px;
+  padding-top: 50px;
+  padding-left: 76px;
+}
