@@ -8,9 +8,10 @@
   right: 0px;
   left: 0px;
   background-color: white;
-  border-bottom-width:1px ;
+  border-bottom-width:100 ;
   border-bottom-style: solid;
   border-bottom-color:rgb(228, 228, 228) ;
+  z-index: 100;
 }
 .left-section{
   display: flex;
@@ -93,6 +94,23 @@
 }
 .notification-icon{
   height: 24px;
+}
+.notification-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
 .my-channel-icon{
   height: 32px;
