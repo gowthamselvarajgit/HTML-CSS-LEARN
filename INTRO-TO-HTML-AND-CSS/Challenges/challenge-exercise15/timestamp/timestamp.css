@@ -1,0 +1,43 @@
+.parent-container{
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.wrong-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -15px;
+  left: -15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wrong{
+  margin: 0px;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+.time-container{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 14px;
+  bottom: 3px;
+}
+.time{
+  font-size: 15px;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}

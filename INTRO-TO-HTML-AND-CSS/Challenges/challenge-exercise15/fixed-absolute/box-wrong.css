@@ -1,0 +1,30 @@
+.parent-container{
+  position: fixed;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  bottom: 20px;
+  right: 20px;
+
+}
+.wrong-container{
+  cursor: pointer;
+  background-color: black;
+  width:20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  padding: 5px;
+}
+p{
+  color: white;
+  font-weight: 600;
+}
+body{
+  height: 3000px;
+}

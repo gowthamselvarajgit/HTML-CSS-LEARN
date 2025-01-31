@@ -1,0 +1,21 @@
+.parent-container{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: rgb(217, 212, 212);
+}
+.child-container{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+p{
+  color: white;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-left: 12px;
+}
